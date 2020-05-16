@@ -1,0 +1,43 @@
+Design Brief for tempo training
+Develope some sort of a notation:
+-- Maybee not.
+Set speed of a bar
+ - put chord into bar and decide how to split up.
+ - some sort of an easyish way
+        - focus on I chords ? (higher probability of these occuring
+    - think, how many beats in a bar (4/4)
+        main notations will be:
+            rest, 2 bar, etc ... but now instead of symbol differences they'll be number differences :
+                1 representing a bar.
+                
+Some sort of program will go through the chords and make some sort of a descision on how each of the chords will be taken/ interpreted
+hmmm....
+basis : value in the chord (all of I,II,III,IV,V,VI,VII)
+ -> somewhere in config
+Options : whole bar, halfbar, quaterbar, eithbar...
+    etc... :)
+    
+How? in output, attach the numeral of the chord... :) :) :)
+        then apply probability distributions for each...
+        WHat would they look like: From dictionary:
+  dict['I'] = np.random.choice([b, b_2, b_3, b_4, b__2, b__4], probablitites)
+  Relativley simple here. :) 
+  Then can easily convert to time! :) 
+  TODO: 
+    create a file with dictionary of all the different options! :)
+    attach numeral of the chord onto each of the chord progressions
+    create thing that loops through all chords and creates a timing thing
+    
+____________________________________________________________________
+NB: THIS OVER HERE is one option, there are other options too... Such as an LSystem incorperating beats :) 
+I think that this is a good option tooo. would be great and could 
+have some sort of thing that incorporated randomness tooo :)..
+with a symbol based approach to the things, it would be EASY to change :) -
+could even then run 2 lsystems that are intrinsically related/ similar to demonstrate rythm for each of the chords/notes :)
+Thats a cool idea i think! 0_o
+
+___________________________________________________________________
+
+
+
+        
